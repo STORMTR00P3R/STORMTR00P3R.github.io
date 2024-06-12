@@ -1,6 +1,6 @@
 ---
 layout: post
-publish: false
+published: false
 ---
 
 This is a Markdown document rendered as a website.
