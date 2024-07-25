@@ -1,6 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: Home
+permalink : /
 ---
+
+This page will be updated to show the latest posts and sections of the website as it grows.
+
+**Latest Posts:**
+
+{% include blog_feed.html %}
