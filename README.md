@@ -36,4 +36,4 @@ widen body for code layouts.
 
 Tue Jul 23
 
-Updated favicon to [pablocortez.github.io](https://pablocortez.github.io) favicon.
+Updated favicon to [STORMTR00P3R.github.io](https://STORMTR00P3R.github.io) favicon.
