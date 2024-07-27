@@ -4,4 +4,4 @@ title: About
 permalink: /about
 ---
 
-This site hosts reference content used in coding classes.
+This page intentionally left blank.
