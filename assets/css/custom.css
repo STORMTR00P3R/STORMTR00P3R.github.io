@@ -44,6 +44,10 @@ nav a {
 
 /* Posts.html */
 
+.post-title {
+    font-size: 2rem;
+}
+
 .post-header {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -99,6 +103,7 @@ pre.highlight {
     outline: none;
     border: none;
     width: 85%;
+    font-size: 95%;
 }
 
 .checkBtn {
@@ -117,6 +122,9 @@ pre.highlight {
     cursor: pointer;
 }
 
+.container {
+    margin-bottom: 8rem;
+}
 
 footer {
     font-size: 80%;
@@ -143,7 +151,7 @@ blockquote {
         width: 100%;
         margin: 0 auto;
         justify-content: flex-end;
-        /* position: fixed; */
+/*         position: fixed; */
         /* background-color: var(--bg-color); */
         /* margin-bottom: 200px; */
         /* align-items: center; */
@@ -176,10 +184,13 @@ blockquote {
 
     .container {
         max-width: 45%;
+        margin-bottom: 8rem;
     }
 
     footer {
         max-width: 90%;
+        display: flex;
+        justify-content: center;
 /*        background-color: aliceblue;*/
     }
 }
