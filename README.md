@@ -7,6 +7,10 @@ Developer Site for Elias built as static site using Jekyll.
 - Find project path on VS Code
 - Update README
 - Define application specification
+- Added the following files
+    - .config.yml
+    - Software License
+    - .gitignore
 
 ## Wed 12/11
 
