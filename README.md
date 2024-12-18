@@ -1,6 +1,12 @@
 # STORMTR00P3R.github.io
 
-Developer Site for Elias
+Developer Site for Elias built as static site using Jekyll.
+
+## Tue Dec 17
+
+- Find project path on VS Code
+- Update README
+- Define application specification
 
 ## Wed 12/11
 
