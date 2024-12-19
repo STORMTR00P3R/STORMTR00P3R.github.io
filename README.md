@@ -2,6 +2,34 @@
 
 Developer Site for Elias built as static site using Jekyll.
 
+## Wed Dec 18
+
+Next steps:
+
+- Create a folder called `_includes`
+- Create a file called `profile.html` inside this folder
+- Inside `_includes/profile.html`, add the following code:
+
+```html
+<div class="profile">
+    <hgroup>
+        <h1 class="profile-name">{{ site.title }}</h1>
+        <img class="profile-pic" src="/assets/images/brand/logo.png" alt="DesktopWords Logo">
+    </hgroup>
+
+    <section class="profile-bio">
+        <p>{{ site.description }}</p>
+    </section>
+
+    <section class="profile-menu">
+        <a href="/feed.xml">
+            <img src="/assets/images/icons/rss.svg" alt="RSS Feed">
+            <span>RSS Feed</span>
+        </a>
+    </section>
+</div>
+```
+
 ## Tue Dec 17
 
 - Find project path on VS Code
