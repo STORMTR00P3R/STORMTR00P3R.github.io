@@ -4,31 +4,63 @@ Developer Site for Elias built as static site using Jekyll.
 
 ## Wed Dec 18
 
+- Added profile partial template
+- Updated repository
+- Added assets directory
+
 Next steps:
 
-- Create a folder called `_includes`
-- Create a file called `profile.html` inside this folder
-- Inside `_includes/profile.html`, add the following code:
+- Create two new folders `css` and `images` and in the CSS 
+folder add a file called `modern-normalize.css` and add the 
+following code:
 
-```html
-<div class="profile">
-    <hgroup>
-        <h1 class="profile-name">{{ site.title }}</h1>
-        <img class="profile-pic" src="/assets/images/brand/logo.png" alt="My Website Logo">
-    </hgroup>
+```css
+/**
+ * Minified by jsDelivr using clean-css v5.3.2.
+ * Original file: /npm/modern-normalize@3.0.1/modern-normalize.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */
+*,::after,::before{box-sizing:border-box}html{font-family:system-ui,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';line-height:1.15;-webkit-text-size-adjust:100%;tab-size:4}body{margin:0}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:currentcolor}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
+/*# sourceMappingURL=/sm/d2d8cd206fb9f42f071e97460f3ad9c875edb5e7a4b10f900a83cdf8401c53a9.map */
 
-    <section class="profile-bio">
-        <p>{{ site.description }}</p>
-    </section>
+/* USER RESET */
+:root {
+    line-height: 1.5;
+}
 
-    <section class="profile-menu">
-        <a href="/feed.xml">
-            <img src="/assets/images/icons/rss.svg" alt="RSS Feed">
-            <span>RSS Feed</span>
-        </a>
-    </section>
-</div>
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family:system-ui,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+blockquote {
+    border-left: 3px solid #bebebe;
+    padding-left: 1rem;
+    margin-inline-start: 1rem;
+}
+
+.highlight {
+    overflow-x: auto;
+}
 ```
+
 
 ## Tue Dec 17
 
