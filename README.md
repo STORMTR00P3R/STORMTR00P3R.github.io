@@ -14,7 +14,7 @@ Next steps:
 <div class="profile">
     <hgroup>
         <h1 class="profile-name">{{ site.title }}</h1>
-        <img class="profile-pic" src="/assets/images/brand/logo.png" alt="DesktopWords Logo">
+        <img class="profile-pic" src="/assets/images/brand/logo.png" alt="My Website Logo">
     </hgroup>
 
     <section class="profile-bio">
