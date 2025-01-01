@@ -80,8 +80,8 @@
 
   @media screen and (min-width: 600px) {
     .profile {
-        padding-block: 2rem;
-        padding-inline: 2rem;
+        padding-block: 8rem;
+        padding-inline: 8rem;
     }
 
     .profile-name {
