@@ -77,3 +77,19 @@
   .profile-menu a:visited {
     /* color: white; */
   }
+
+  @media screen and (min-width: 600px) {
+    .profile {
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+
+    .profile-name {
+        font-size: var(--fs-2);
+    }
+
+    .profile-bio {
+        max-width: 35ch;
+        margin-block-end: 2.25rem;
+    }
+  }
