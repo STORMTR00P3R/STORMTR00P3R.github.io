@@ -15,6 +15,10 @@
   --color-primary: lavender;
 }
 
+body {
+    background-color: var(--color-primary);
+}
+
 /* User Profile */
 
 .profile {
