@@ -2,6 +2,28 @@
 
 Developer Site for Elias built as static site using Jekyll.
 
+## Getting Started
+
+Make sure you have Ruby and bundler installed on your machine before following the next stops.
+
+After cloning the repository, make sure to install all missing gems with:
+
+`$ bundle install`
+
+To start the live server, run:
+
+`$ bundle exec jekyll server`
+
+## Tue Jan 14
+
+- Update README.md
+- 
+
+## Tue Jan 07
+
+- Add favicon to website
+- Fixed profile padding
+
 ## Tue Dec 31
 
 - Added modern normalize
