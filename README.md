@@ -2,87 +2,43 @@
 
 Developer Site for Elias built as static site using Jekyll.
 
-## Tue Dec 31
+## Getting Started
+
+Make sure you have [Ruby](https://www.ruby-lang.org/en/) and [bundler](https://bundler.io) installed on your machine before following the next steps.
+
+### Dependencies
+
+After cloning the repository, make sure to install all missing gems with: `$ bundle install`.
+
+### Live Server
+
+To start the live server, run: `$ bundle exec jekyll server`.
+
+## Devlog
+
+### Tue Jan 14
+
+- Update README.md
+- Refactor assets folder
+- Update default layout
+
+### Tue Jan 07
+
+- Add favicon to website
+- Fixed profile padding
+
+### Tue Dec 31
 
 - Added modern normalize
+- Created base styles
 
-Next steps:
-
-1. Create a new file `base.css`
-2. Add the following code:
-
-```css
-/* User Profile */
-
-.profile {
-  background-color: black;
-  color: white;
-  padding-block-end: 1rem;
-  padding-inline: 1rem;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
-}
-
-.profile hgroup {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
-
-.profile-name {
-  font-size: var(--fs-1);
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.profile-pic {
-  height: 60px;
-  width: 60px;
-  border-radius: 100%;
-  border: 1px solid white;
-  margin-top: 1rem;
-}
-
-.profile-bio {
-  color: lightgray;
-  max-width: 20ch;
-}
-
-.profile-menu {
-  display: flex;
-  margin-block: 1.25rem;
-  gap: 1rem;
-}
-
-.profile-menu a {
-  color: black;
-  text-decoration: none;
-  background-color: var(--color-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 0.25rem;
-  padding: 0.5rem 1rem;
-  gap: 0.25rem;
-  font-weight: bold;
-  font-size: var(--fs--1);
-}
-
-.profile-menu img {
-  height: 1rem;
-}
-
-.profile-menu a:visited {
-  /* color: white; */
-}
-````
-
-## Wed Dec 18
+### Wed Dec 18
 
 - Added profile partial template
 - Updated repository
 - Added assets directory
 
-## Tue Dec 17
+### Tue Dec 17
 
 - Find project path on VS Code
 - Update README
@@ -92,7 +48,7 @@ Next steps:
     - Software License
     - .gitignore
 
-## Wed 12/11
+### Wed 12/11
 
 - Archive old Github Pages site
 - Create Github repository
