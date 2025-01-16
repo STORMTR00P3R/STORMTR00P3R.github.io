@@ -16,6 +16,12 @@ To start the live server, run: `$ bundle exec jekyll server`.
 
 ## Devlog
 
+### Wed Jan 15
+
+- Review git commands for collaborative work
+- Update TablerIcons article svg icon
+- Update README.md with aliased commands
+
 ### Tue Jan 14
 
 - Update README.md
