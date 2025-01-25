@@ -1,6 +1,11 @@
 <main class="feed">
     {% if site.posts.size > 0 %}
-    <p>Posts will go here.</p>
+
+    {% for post in site.posts %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p><time>{{ post.date | date: "%b %d" }}</time></p>
+    {% endfor %}
+
     {% else %}
     <div class="feed--empty">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
