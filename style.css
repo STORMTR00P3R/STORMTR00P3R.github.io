@@ -11,6 +11,8 @@
     --color-background: black;
     --color-heading: white;
     --color-text: rgb(175, 174, 174);
+    --color-link: #3697d4;
+    --color-link-hover: #90c5ed;
 }
 
 html, body {
@@ -29,4 +31,31 @@ body {
 h1, h2, h3 {
     color: var(--color-headings);
     font-family: 'Fusion Pixel 12px Monospaced SC';
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-link-hover)
+}
+
+section {
+    margin-top: 3rem;
+}
+
+#profile-picture {
+    height: 200px;
+    width: 200px;
+    display: block;
+    border: 1px solid white;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        padding: 3rem;
+    }
 }
