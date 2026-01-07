@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: var(--color-headings);
+    color: var(--color-heading);
     font-family: 'Fusion Pixel 12px Monospaced SC';
 }
 
