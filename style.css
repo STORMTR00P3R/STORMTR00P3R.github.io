@@ -13,12 +13,34 @@
     --color-text: rgb(175, 174, 174);
     --color-link: #3697d4;
     --color-link-hover: #90c5ed;
+    --blue-light: hsl(210, 2%, 16%);
+    --blue-dark: hsl(240, 3%, 6%);
+}
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: var(1000);
+
+    background-image: radial-gradient(
+        ellipse at 60% 60%,
+        var(--blue-light) 0%,
+        var(--blue-dark) 65%
+    );
+    background-attachment: fixed;
+    overscroll-behavior: none;
 }
 
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--color-background);
+    /* background-color: var(--color-background); */
 }
 
 body { 
