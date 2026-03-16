@@ -4,8 +4,7 @@ function randomChar() {
     return chars[Math.floor(Math.random() * chars.length)];
 }
 
-function scramble() {
-  const el = document.getElementById("scramble");
+function scramble(el) {
   const original = el.innerText;
 
   let i = 0;
@@ -22,7 +21,13 @@ function scramble() {
     if (i >= original.length) clearInterval(interval);
 
     i += 0.5;
-  }, 30);
+  }, 40);
 }
 
-window.onload = scramble;
+const element = document.querySelectorAll('.scramble');
+
+element.forEach((el, index) => {
+    setTimeout(() => {
+        scramble(el);
+    }, index * 1)
+});
