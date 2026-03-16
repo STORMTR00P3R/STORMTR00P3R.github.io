@@ -13,8 +13,8 @@
     --color-text: rgb(175, 174, 174);
     --color-link: #3697d4;
     --color-link-hover: #90c5ed;
-    --blue-light: hsl(210, 2%, 16%);
-    --blue-dark: hsl(240, 3%, 6%);
+    --light: hsl(210, 2%, 16%);
+    --dark: hsl(240, 3%, 6%);
 }
 
 
@@ -30,8 +30,8 @@ html {
 
     background-image: radial-gradient(
         ellipse at 60% 60%,
-        var(--blue-light) 0%,
-        var(--blue-dark) 65%
+        var(--light) 0%,
+        var(--dark) 65%
     );
     background-attachment: fixed;
     overscroll-behavior: none;
