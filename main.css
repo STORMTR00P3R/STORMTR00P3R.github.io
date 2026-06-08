@@ -21,3 +21,20 @@ body {
 h1, h2, h3 {
     font-family: system-ui, serif;
 }
+
+.masthead {
+    display: flex;
+    flex-direction: column;
+}
+
+.masthead_title {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.masthead_tagline {
+    margin: 0;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: gray;
+}
