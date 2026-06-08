@@ -24,15 +24,21 @@ h1, h2, h3 {
 
 .masthead {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
-.masthead_title {
+
+.masthead__logo {
+    height: 72px;
+    width: 72px;
+}
+
+.masthead__title {
     margin-bottom: 0;
     line-height: 1;
 }
 
-.masthead_tagline {
+.masthead__tagline {
     margin: 0;
     font-variant: small-caps;
     letter-spacing: 1px;
