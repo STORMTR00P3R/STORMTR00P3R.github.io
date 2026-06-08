@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #fffaf3;
+    --color-text: #222;
+}
+
+body {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 80ch;
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+h1, h2, h3 {
+    font-family: system-ui, serif;
+}
