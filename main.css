@@ -29,8 +29,8 @@ h1, h2, h3 {
 
 
 .masthead__logo {
-    height: 72px;
-    width: 72px;
+    height: 64px;
+    width: 64px;
 }
 
 .masthead__title {
@@ -43,4 +43,15 @@ h1, h2, h3 {
     font-variant: small-caps;
     letter-spacing: 1px;
     color: gray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    gap: 1rem;
 }
