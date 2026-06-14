@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #fffaf3;
+    --color-text: #222;
+}
+
+body {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 80ch;
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+h1, h2, h3 {
+    font-family: system-ui, serif;
+}
+
+.masthead {
+    display: flex;
+    align-items: center;
+}
+
+
+.masthead__logo {
+    height: 64px;
+    width: 64px;
+}
+
+.masthead__title {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.masthead__tagline {
+    margin: 0;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    gap: 1rem;
+}
