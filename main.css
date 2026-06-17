@@ -55,3 +55,8 @@ nav div {
     display: flex;
     gap: 1rem;
 }
+
+.certif {
+    height: 350px;
+    width: 500px;
+}
