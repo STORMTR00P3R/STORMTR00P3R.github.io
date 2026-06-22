@@ -60,3 +60,14 @@ nav div {
     height: 350px;
     width: 500px;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+    margin-block: 0rem;
+}
+
+.project-list li {
+    margin-block: 2rem;
+}
