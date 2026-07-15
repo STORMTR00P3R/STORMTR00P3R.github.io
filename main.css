@@ -79,6 +79,10 @@ details {
     margin-inline-start: 1rem;
 }
 
+summary h3 {
+    display: inline;
+}
+
 a {
     color: #306eb0;
 }
