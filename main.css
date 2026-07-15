@@ -74,3 +74,11 @@ img {
 .project-list li {
     margin-block: 2rem;
 }
+
+details {
+    margin-inline-start: 1rem;
+}
+
+a {
+    color: #306eb0;
+}
