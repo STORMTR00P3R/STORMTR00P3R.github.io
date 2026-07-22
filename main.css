@@ -87,6 +87,18 @@ a {
     color: #306eb0;
 }
 
+a.mono {
+    color: inherit;
+    font-family: monospace;
+    text-decoration-line: none;
+    padding: 2px;
+}
+
+a.mono:hover {
+    color: var(--color-bg);
+    background-color: var(--color-text)
+}
+
 blockquote {
     border-left: 2px solid rgb(171, 171, 171);
     padding-left: 2rem;
