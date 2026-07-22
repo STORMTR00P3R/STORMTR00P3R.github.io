@@ -86,3 +86,9 @@ summary h3 {
 a {
     color: #306eb0;
 }
+
+blockquote {
+    border-left: 2px solid rgb(171, 171, 171);
+    padding-left: 2rem;
+    margin-left: 1.55rem;
+}
